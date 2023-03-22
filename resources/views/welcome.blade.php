@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="">Test SSH</a>
+    <a href="{{route('test_ssh')}}">Test SSH</a>
+    <br>
+    <a href="{{route('connect')}}">connect</a>
+    <br>
+    <a href="{{route('list_connections')}}">list_connections</a>
+    <br>
+    <a href="{{route('add_connection')}}">add_connection</a>
 </body>
 </html>

@@ -24,6 +24,7 @@ class CreateRemotesTable extends Migration
             $table->string('agent');
             $table->string('timeout');
             $table->string('port');
+            $table->string('status')->default('active');
             $table->timestamps();
         });
     }

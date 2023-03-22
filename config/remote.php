@@ -39,7 +39,7 @@ return [
         ],
         'production' => [
             'host'      => '192.168.56.69',
-            'username'  => 'rozi',
+            'username'  => 'rozii',
             'password'  => '123',
             'key'       => '',
             'keytext'   => '',
